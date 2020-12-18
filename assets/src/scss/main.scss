@@ -1,0 +1,102 @@
+/* Main SCSS */
+body,
+h1 {
+  font-family: "Raleway", sans-serif;
+  margin: 24px;
+}
+
+body,
+html {
+  height: 100%
+}
+
+body {
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../../dist/img/background.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.wc-logo img {
+    width: 200px;
+    height: auto;
+}
+
+.wc-display-container {
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.wc-animate-opacity {
+  animation: opac 0.8s;
+}
+
+.wc-text-white, 
+.wc-hover-text-white:hover {
+  color: #fff!important;
+}
+
+.wc-padding-large {
+    padding: 12px 24px!important;
+}
+
+.wc-xlarge {
+    font-size: 24px!important;
+}
+
+.wc-display-topleft {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.wc-display-middle {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+.wc-jumbo {
+    font-size: 50px!important;
+}
+
+.wc-animate-top {
+    position: relative;
+    animation: animatetop 0.4s;
+}
+
+.wc-border-grey, .wc-hover-border-grey:hover, .wc-border-gray, .wc-hover-border-gray:hover {
+    border-color: #9e9e9e!important;
+    margin:auto;
+    width:40%;
+}
+
+.wc-center {
+    text-align: center!important;
+}
+
+.wc-large {
+    font-size: 18px!important;
+}
+
+.wc-padding-large {
+    padding: 24px!important;
+}
+
+.wc-display-bottomcenter {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    a {
+        text-decoration: none;
+        color: #6dc8bf;
+    }
+}

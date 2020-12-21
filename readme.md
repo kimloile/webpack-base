@@ -24,7 +24,7 @@ You can play around with `/index.html` to see the effects of your changes.
 To add more files to get bundled, open file `webpack.variables.js` to enter your input file path, the output file will be located in `assets/dist/*` folder.
 
 ## Notes
-If there is issue regarding to installing dependencies, try to uninstall/delete the packages in `node-modules` folder and and re-install them.
+If there are any issues regarding to installing dependencies, try to uninstall/delete the packages in `node-modules` folder and and re-install them.
 
 To uninstall a package you have previously installed locally in the `node_modules` folder, simply delete the folder, or run:
 ```
